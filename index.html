@@ -41,8 +41,8 @@
       )
   </h2>
   <div class="paper">
-      I'm currently a Master student at the Peking University (PKU).<br><br>
-      Previously, I received my B.E degree from University of Electronic Science and Technology (UESTC).
+      I'm currently a Ph.D candidate at the Peking University (PKU).<br><br>
+      Previously, I received my B.E degree from UESTC and MS degree from PKU.
       <br>
 
       <!-- I work very close with my friends <a href="https://scholar.google.com/citations?user=42MVVPgAAAAJ">Dr. Enze
@@ -52,9 +52,8 @@
       <br>
       My research interests focus on:
       <ul>
-          <li>3D Vision & Embodied AI</li>
-          <li>Domain Adptation</li>
-          <li>Unsupervised Learning</li>
+          <li>Embodied AI & Manipulation</li>
+          <li>3D Vision</li>
       </ul>
 
   </div>
@@ -66,7 +65,16 @@
   <div class="paper">
       <ul>
         <li>
-            2024/01: One paper is accepted by <b>ICRA 2024</b>.
+            2025/02: <strong><a href="https://omnimanip.github.io/">OmniManip</a></strong> and CheckManual are accepted by <b>CVPR 2025</b>!
+         </li>
+         <li>
+            2025/02: We released  <strong><a href="https://huggingface.co/datasets/agibot-world/AgiBotDigitalWorld">AgibotDigitalWorld</a></strong>, a large manipulation dataset generated with high quality simulation. We will release the core data generation framework in months, <alert>plsease contact us if you want to join!</alert>
+         </li>
+         <li>
+            2024/12: LidarLLM is accepted by <b>AAAI 2025</b>.
+         </li>
+        <li>
+            2024/01: <strong><a href="https://github.com/pmj110119/RenderOcc">RenderOcc</a></strong> is accepted by <b>ICRA 2024</b>!
          </li>
          <li>
             2023/12: One paper is accepted by <b>AAAI 2024</b>.
@@ -101,7 +109,7 @@
   </div>
 </div>
 
-
+<!-- 
 <div class="section">
   <h2 id="experience">Experience</h2>
   <div class="paper">
@@ -124,31 +132,60 @@
 
       <div class="spanner"></div>
   </div>
-</div>
+</div> -->
 
 <div class="section">
-  <h2>Research</h2>
+  <h2>Selected Projects [<a href="">Full List</a>]</h2>
   (* Equal contribution)
 
-  <div class="paper"><img class="paper" src="resources/images/renderocc.png"
-    title="RenderOcc">
-    <div><strong>RenderOcc: Vision-Centric 3D Occupancy Prediction with 2D Rendering Supervision</strong><br>
-        <strong>Mingjie Pan*</strong>, Jiaming Liu*, Renrui Zhang*, Peixiang Huang, Xiaoqi Li, Bing Wang, Hongwei Xie, Li Liu, Shanghang Zhang<br>
-        <a href="https://arxiv.org/abs/2309.09502">ICRA</a>, 2024, <a href="https://github.com/pmj110119/RenderOcc">Code</a>
-        
+
+  <div class="paper">
+    <img class="paper" src="resources/images/OmniManip.gif" title="OmniManip">
+    <div><strong><a href="https://omnimanip.github.io/"> OmniManip: Towards General Robotic Manipulation via Object-Centric Interaction Primitives as Spatial Constraints</a></strong><br>
+        <strong>Mingjie Pan*</strong>, Jiyao Zhang*, Tianshu Wu, Yinghao Zhao, Wenlong Gao, Hao Dong<br>
+        <a href="https://arxiv.org/abs/2501.03841">Paper</a> |  <a href="https://github.com/pmj110119/OmniManip">Code</a> (coming soon) <br>
+        <strong>CVPR 2025</strong>
         <br>
-        <alert>We propose a universal 3D occupancy training paradigm that leverage 2D labels.</alert>
+    </div>
+    <div class="spanner"></div>
+    </div>
+
+
+
+  <div class="paper"><img class="paper" src="resources/images/AgibotDigitalWorld.gif"
+    title="AgibotDigitalWorld">
+    <div><strong><a href="https://huggingface.co/datasets/agibot-world/AgiBotDigitalWorld">AgiBotDigitalWorld</a></strong><br>
+        Jiyao Zhang, <strong>Mingjie Pan</strong>, Baifeng Xie, Yinghao Zhao, Wenlong Gao, Guangte Xiang, Jiawei Zhang, Dong Li, Zhijun Li, Sheng Zhang, Hongwei Fan, Chengyue Zhao, Shukai Yang, Maoqing Yao, Chuanzhe Suo, Hao Dong<br>
+        <a href="https://huggingface.co/datasets/agibot-world/AgiBotDigitalWorld">Huggingface</a>, 2025
+        <br>
+        <alert>We will release the core data generation framework in months, plsease contact us if you want to join!</alert>
 
     </div>
     <div class="spanner"></div>
     </div>
 
-    <div class="paper"><img class="paper" src="resources/images/renderocc.png"
-        title="RenderOcc">
+
+
+  <div class="paper"><img class="paper" src="resources/images/RenderOcc.gif"
+    title="RenderOcc">
+    <div><strong><a href="https://github.com/pmj110119/RenderOcc">RenderOcc: Vision-Centric 3D Occupancy Prediction with 2D Rendering Supervision</a></strong><br>
+        <strong>Mingjie Pan*</strong>, Jiaming Liu*, Renrui Zhang*, Peixiang Huang, Xiaoqi Li, Bing Wang, Hongwei Xie, Li Liu, Shanghang Zhang<br>
+        <a href="https://arxiv.org/abs/2309.09502">Paper</a> | <a href="https://github.com/pmj110119/RenderOcc">Code</a> <br>
+        <strong>ICRA 2024</strong>
+        <br>
+        <!-- <alert>We propose a universal 3D occupancy training paradigm that leverage 2D labels.</alert> -->
+
+    </div>
+    <div class="spanner"></div>
+    </div>
+
+    <div class="paper"><img class="paper" src="resources/images/LidarLLM.png"
+        title="LidarLLM">
         <div><strong>LiDAR-LLM: Exploring the Potential of Large Language Models for 3D LiDAR Understanding</strong><br>
             Senqiao Yang*, Jiaming Liu*, Ray Zhang*, <strong>Mingjie Pan*</strong>, Zoey Guo, Xiaoqi Li, Zehui Chen, Peng Gao, Yandong Guo, Shanghang Zhang<br>
-            <a href="https://arxiv.org/abs/2312.14074">AAAI</a>, 2025
+            <a href="https://arxiv.org/abs/2312.14074">Paper</a>
             <br>
+            <strong>AAAI 2025</strong>
             <!-- <alert>We propose a universal 3D occupancy training paradigm that leverage 2D labels.</alert> -->
     
         </div>
@@ -156,7 +193,7 @@
         </div>
     
 
-  <div class="paper"><img class="paper" src="resources/images/uniocc.png"
+  <!-- <div class="paper"><img class="paper" src="resources/images/uniocc.png"
         title="uniocc">
     <div><strong>UniOcc: Unifying Vision-Centric 3D Occupancy Prediction with Geometric and Semantic Rendering</strong><br>
         <strong>Mingjie Pan</strong>, Li Liu,  Jiaming Liu, Peixiang Huang, Longlong Wang, Shanghang Zhang, Kuiyuan Yang<br>
@@ -164,25 +201,25 @@
         <a href="https://arxiv.org/abs/2306.09117">Technical Report</a>, 2023<br> 
         
         <br>
-        <!-- <alert>We propose a universal 3D occupancy training paradigm that leverage 2D labels.</alert> -->
-
     </div>
   <div class="spanner"></div>
-</div>
+</div> -->
+
+
+
 
 
   <div class="paper"><img class="paper" src="resources/images/DiffuseIR.png" title="DiffuseIR">
     <div><strong>DiffuseIR: Diffusion Models For Isotropic Reconstruction of 3D Microscopic Images</strong><br>
         <strong>Mingjie Pan*</strong>, Yulu Gan*, Fangxu Zhou, Jiaming Liu, Ying Zhang, Aimin Wang, Shanghang Zhang, Dawei Li<br>
-        <a href="https://arxiv.org/abs/2306.12109">MICCAI</a>, 2023<br>
+        <a href="https://arxiv.org/abs/2306.12109">Paper</a><br>
+        <strong>MICCAI 2023</strong>
         <br>
-        <alert>An unsupervised and strong isotropic reconstruction method based on diffusion models.</alert>
-
     </div>
     <div class="spanner"></div>
   </div>
 
-  <div class="paper"><img class="paper" src="resources/images/sparse.png"
+  <!-- <div class="paper"><img class="paper" src="resources/images/sparse.png"
         title="sparse">
     <div><strong>Exploring sparse visual prompt for cross-domain semantic segmentation</strong><br>
         Senqiao Yang*, Jiarui Wu*, Jiaming Liu, Xiaoqi Li, Qizhe Zhang, <strong>Mingjie Pan</strong>, Shanghang Zhang<br>
@@ -192,17 +229,16 @@
 
     </div>
     <div class="spanner"></div>
-    </div>
+    </div> -->
 
 
   <div class="paper"><img class="paper" src="resources/images/cloud.png"
         title="cloud">
     <div><strong>Cloud-device collaborative adaptation to continual changing environments in the real-world</strong><br>
         Yulu Gan*, <strong>Mingjie Pan*</strong>, Rongyu Zhang, Zijian Ling, Lingran Zhao, Jiaming Liu, Shanghang Zhang<br>
-        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=QdUeY3IAAAAJ&citation_for_view=QdUeY3IAAAAJ:u5HHmVD_uO8C">CVPR</a>, 2023<br>
+        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=QdUeY3IAAAAJ&citation_for_view=QdUeY3IAAAAJ:u5HHmVD_uO8C">Paper</a><br>
+        <strong>CVPR 2023</strong>
         <br>
-        <alert> A cloud-device collaborative framework that helps device models adapt to continuously changing environments.</alert>
-
     </div>
   <div class="spanner"></div>
 </div>
